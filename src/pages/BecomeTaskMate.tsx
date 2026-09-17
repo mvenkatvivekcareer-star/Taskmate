@@ -64,8 +64,7 @@ const BecomeTaskMate = () => {
             available_hours: formData.hours.trim(),
             description: formData.description.trim(),
           },
-        ])
-        .select('id');
+      ]);
 
       if (insertError) throw insertError;
 
